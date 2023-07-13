@@ -51,23 +51,28 @@ nav a:hover {
     text-align: center;
     align-items: center;
 }
-.digital-container{
+
+.digital-container {
     padding: 0px 250px;
 }
-.agency-title{
+
+.agency-title {
     font-size: 70px;
     color: white;
 }
-.agency-digital{
+
+.agency-digital {
     color: #F94C30;
     line-height: 100px;
 }
-.agency-description{
+
+.agency-description {
     font-size: 25px;
     color: white;
     margin: 30px 0px;
 }
-.btn-agency{
+
+.btn-agency {
     padding: 15px 20px;
     font-size: 18px;
     background-color: #F94C30;
@@ -76,7 +81,8 @@ nav a:hover {
     border-radius: 5px;
     margin-right: 15px;
 }
-.btn-agency-two{
+
+.btn-agency-two {
     padding: 15px 20px;
     font-size: 18px;
     background-color: white;
@@ -84,8 +90,9 @@ nav a:hover {
     color: #F94C30;
     border-radius: 5px;
 }
+
 /* services section styles from here */
-.services-section{
+.services-section {
     height: 100vh;
     background-color: black;
     color: white;
@@ -96,57 +103,69 @@ nav a:hover {
     gap: 50px;
 }
 
-.services-container-left > ol li{
+.services-container-left>ol li {
     font-size: 20px;
     margin-left: 20px;
 }
-.services-btn{
+
+.services-btn {
     padding: 15px 30px;
     border-radius: 35px;
     font-size: 18px;
-}.services-title{
+}
+
+.services-title {
     font-size: 40px;
     padding: 18px 0px;
 }
-.services-title-red{
+
+.services-title-red {
     color: #F94C30;
 }
-.services-description{
+
+.services-description {
     font-size: 22px;
     padding: 18px 0px;
     width: 700px;
 }
-.left-photo{
+
+.left-photo {
     height: 70px;
     width: 70px;
     border-radius: 35px;
     margin: 18px 0px;
 }
-.title-small{
+
+.title-small {
     font-size: 13px;
 }
-.left-img-title{
+
+.left-img-title {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.again-left-btn{
+
+.again-left-btn {
     border-left: 1px solid red;
     margin-left: 50px;
     padding-left: 10px;
 
 }
-.again-left-container{
+
+.again-left-container {
     display: flex;
     align-items: center;
     gap: 10px;
     padding-top: 10px;
 }
+
 /* services section right styles start from here */
-.services-container-right-row-one{
+.services-container-right-row-one {
     display: flex;
 }
-.box-one{
+
+.box-one {
     height: 300px;
     width: 300px;
     background-color: #fff;
@@ -157,11 +176,13 @@ nav a:hover {
     align-items: center;
     border-radius: 10px;
 }
-.box-one-img{
+
+.box-one-img {
     width: 100px;
 }
+
 /* make appointment section styles start from here  */
-.make-appointment{
+.make-appointment {
     height: 200px;
     background-color: #F94C30;
     margin-top: -100px;
@@ -172,14 +193,17 @@ nav a:hover {
     justify-content: center;
     align-items: center;
 }
-.make-appointment-container{
+
+.make-appointment-container {
     display: flex;
     align-items: center;
 }
-.make-appointment-call{
+
+.make-appointment-call {
     width: 130px;
 }
-.make-appointment-left{
+
+.make-appointment-left {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -187,18 +211,22 @@ nav a:hover {
     padding-right: 20px;
     border-right: 2px solid rgb(94, 91, 91);
 }
-.make-appointment-number{
+
+.make-appointment-number {
     font-size: 40px;
 }
-.make-appointment-number-small{
+
+.make-appointment-number-small {
     font-size: 13px;
 }
-.make-description{
+
+.make-description {
     font-size: 20px;
     color: white;
     margin-left: 20px;
 }
-.appointment-btn{
+
+.appointment-btn {
     padding: 15px 20px;
     font-size: 18px;
     background-color: white;
@@ -206,4 +234,53 @@ nav a:hover {
     color: #F94C30;
     border-radius: 35px;
     margin-left: 30px;
+}
+
+/* blog news styles start from here */
+.blog-news {
+    height: 80vh;
+    background-color: #fff;
+    padding: 30px 250px;
+}
+
+.blog-news-title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.blog-news-title-red {
+    color: #F94C30;
+}
+
+.blog-news-description {
+    font-size: 25px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    box-shadow: 1px 2px 5px 1px rgb(160, 158, 158);
+    border-radius: 10px;
+}
+.card-image{
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+    height: 220px;
+}
+.card-title{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+.card-description{
+    font-size: 20px;
 }
