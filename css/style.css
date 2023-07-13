@@ -284,3 +284,37 @@ nav a:hover {
 .card-description{
     font-size: 20px;
 }
+/* footer section styles start from here */
+.footer-container{
+    display: flex;
+    height: 60vh;
+    background-color: black;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 250px;
+}
+.footer-box-2{
+    color: white;
+}
+.footer-description{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 10px 0px;
+}
+.social-icon img{
+    margin-right: 20px;
+    padding: 13px 0px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+footer .item{
+    list-style: none;
+    font-size: 18px;
+    line-height: 30px;
+}
+.copy{
+    color: white;
+}
